@@ -2,7 +2,7 @@
 # Mr_Anarshi_T , Magnom , Ghosty , Leet Haxor
 #
 #   ***********************************
-#   Dorker Onet.pl (EnHanced by Google)
+#   Dorker Onet.pl (EnHanced by Google).
 #   ***********************************
 
 use LWP::UserAgent;
