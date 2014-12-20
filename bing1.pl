@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# Mr_Anarshi_T , Magnom , Ghosty , Leet Haxor
+# Mr_Anarshi_T , Magnom , Ghosty , Leet Haxor.
 # old project
 
 use LWP::UserAgent;
