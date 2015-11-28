@@ -22,7 +22,7 @@ return($random);
 for ($i = 0; $i < 1000; $i += 1) {
          $randd = randomprox();
 	 $ua = LWP::UserAgent->new();
-         # $ua->proxy('http', 'http://'.$randd.'/');
+         $ua->proxy('http', 'http://'.$randd.'/');
 	 $ua->agent("Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36");
      $res = $ua->get("http://ajax.googleapis.com/ajax/services/search/web?v=1.0&rsz=8&q=".$dork."&start=".$i."&filter=1&safe=off")->content;
 
